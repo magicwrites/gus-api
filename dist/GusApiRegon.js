@@ -85,7 +85,7 @@ class GusApiRegon {
     }
     init() {
         return __awaiter(this, void 0, void 0, function* () {
-            this.client = yield soap_1.createClientAsync(path_1.default.resolve(__dirname, `./wsdl/UslugaBIRzewnPubl-ver11-${this.sandbox ? 'test' : 'prod'}.wsdl`), {
+            this.client = yield (0, soap_1.createClientAsync)(path_1.default.resolve(__dirname, `./wsdl/UslugaBIRzewnPubl-ver11-${this.sandbox ? 'test' : 'prod'}.wsdl`), {
                 endpoint: this.sandbox ? this.testUrl : this.url,
                 forceSoap12Headers: true,
             });
