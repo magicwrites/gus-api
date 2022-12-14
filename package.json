@@ -1,5 +1,5 @@
 {
-  "name": "@magicwrites/gus-api-regon",
+  "name": "@magicwrites/gus-api",
   "version": "1.0.7",
   "description": "Service to communicate with Polish GUS",
   "main": "dist/index.js",
