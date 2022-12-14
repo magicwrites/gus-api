@@ -1,4 +1,5 @@
 # gus-api-regon
+
 Small service to connect to GUS API REGON
 
 [![npm version](https://img.shields.io/npm/v/@pobidowski/gus-api-regon.svg?style=flat-square)](https://www.npmjs.org/package/@pobidowski/cz-conventional-changelog-for-phabricator)
@@ -17,7 +18,7 @@ Small service to connect to GUS API REGON
 npm install @pobidowski/gus-api-regon
 ```
 
-or 
+or
 
 ```bash
 yarn add @pobidowski/gus-api-regon
@@ -26,12 +27,12 @@ yarn add @pobidowski/gus-api-regon
 ### Example usage
 
 ```javascript
-import { GUSApiRegon } from '@pobidowski/gus-api-regon';
+import { GusApiRegon } from '@pobidowski/gus-api-regon';
 
-const service = new GUSApiRegon('YOUR_API_KEY');
+const service = new GusApiRegon('YOUR_API_KEY');
 
 const results = await service.search({
-  Nip: '1234567890'
+  Nip: '1234567890',
 });
 
 console.log('Results', results);
@@ -39,12 +40,12 @@ console.log('Results', results);
 
 ### Search params
 
-| Name       | Example                       | Optional  |
-| ---------- | ----------------------------- | --------- |
-| Nip        | 9471986146                    | true      |
-| Krs        | 0000090577                    | true      |
-| Regon      | 008376680 or 00000008376680   | true      |
-| Krsy       | 0000090577,0000090577         | true      |
-| Nipy       | 9471986146,9471986146         | true      |
-| Regony14zn | 00000008376680,00000008376680 | true      |
-| Regony9zn  | 008376680,008376680           | true      |                                                                                                                                                     |
+| Name       | Example                       | Optional |
+| ---------- | ----------------------------- | -------- | --- |
+| Nip        | 9471986146                    | true     |
+| Krs        | 0000090577                    | true     |
+| Regon      | 008376680 or 00000008376680   | true     |
+| Krsy       | 0000090577,0000090577         | true     |
+| Nipy       | 9471986146,9471986146         | true     |
+| Regony14zn | 00000008376680,00000008376680 | true     |
+| Regony9zn  | 008376680,008376680           | true     |     |
