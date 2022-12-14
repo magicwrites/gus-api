@@ -1,12 +1,12 @@
 {
-  "name": "@pobidowski/gus-api-regon",
+  "name": "@magicwrites/gus-api-regon",
   "version": "1.0.4",
-  "description": "Small service to connect to GUS API REGON",
+  "description": "Service to communicate with Polish GUS",
   "main": "dist/index.js",
-  "homepage": "https://github.com/pobidowski/gus-api-regon",
+  "homepage": "https://github.com/magicwrites/gus-api",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pobidowski/gus-api-regon.git"
+    "url": "https://github.com/magicwrites/gus-api.git"
   },
   "scripts": {
     "build": "tsc",
