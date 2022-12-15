@@ -8,7 +8,7 @@ import { GusApiRegonItemInterface } from './GusApiRegonItemInterface';
 export class GusApiRegon {
   protected apiKey: string;
   protected url: string =
-    'https://wyszukiwarkaregontest.stat.gov.pl/wsBIR/UslugaBIRzewnPubl.svc';
+    'https://wyszukiwarkaregon.stat.gov.pl/wsBIR/UslugaBIRzewnPubl.svc';
   protected testUrl: string =
     'https://wyszukiwarkaregontest.stat.gov.pl/wsBIR/UslugaBIRzewnPubl.svc';
   protected client!: Client;

@@ -18,7 +18,7 @@ const path_1 = __importDefault(require("path"));
 const fast_xml_parser_1 = __importDefault(require("fast-xml-parser"));
 class GusApiRegon {
     constructor(apiKey, sandbox = false) {
-        this.url = 'https://wyszukiwarkaregontest.stat.gov.pl/wsBIR/UslugaBIRzewnPubl.svc';
+        this.url = 'https://wyszukiwarkaregon.stat.gov.pl/wsBIR/UslugaBIRzewnPubl.svc';
         this.testUrl = 'https://wyszukiwarkaregontest.stat.gov.pl/wsBIR/UslugaBIRzewnPubl.svc';
         this.apiKey = apiKey;
         this.sandbox = sandbox;
